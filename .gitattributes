@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# Track all files within Content/ImportedAssets/ModularSciFi folder with Git LFS
+Content/ImportedAssets/ModularSciFi/* filter=lfs diff=lfs merge=lfs -text
