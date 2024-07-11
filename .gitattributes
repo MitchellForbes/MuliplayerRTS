@@ -7,3 +7,7 @@ Content/ImportedAssets/ModSci_Engineer/* filter=lfs diff=lfs merge=lfs -text
 Content/ImportedAssets/ModSci_EngiProps/* filter=lfs diff=lfs merge=lfs -text
 Content/ImportedAssets/ModSciInteriors/* filter=lfs diff=lfs merge=lfs -text
 Content/ImportedAssets/Orasot_Bundle/* filter=lfs diff=lfs merge=lfs -text
+Content/ModSciInteriors/* filter=lfs diff=lfs merge=lfs -text
+Content/ModSci_EngiProps/* filter=lfs diff=lfs merge=lfs -text
+Content/ModSci_Engineer/* filter=lfs diff=lfs merge=lfs -text
+Content/Orasot_Bundle/* filter=lfs diff=lfs merge=lfs -text
