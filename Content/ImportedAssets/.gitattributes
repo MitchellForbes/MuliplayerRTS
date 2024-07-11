@@ -1,3 +1,0 @@
-ModSciInteriors/* filter=lfs diff=lfs merge=lfs -text
-ModSci_EngiProps/* filter=lfs diff=lfs merge=lfs -text
-ModSci_Engineer/* filter=lfs diff=lfs merge=lfs -text
