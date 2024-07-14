@@ -73,4 +73,11 @@ Plugins/*/Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 
-Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset
+# Exclude everything in Content folder except .uasset files
+Content/*
+!Content/**/*.uasset
+
+# Exclude specific directories or file types not related to .uasset files
+# Adjust these exclusions based on your project structure
+<specific_directory_to_exclude>/
+*.log
