@@ -1,6 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-
 # Track all files within specified folders with Git LFS
 Content/ImportedAssets/ModularSciFi/* filter=lfs diff=lfs merge=lfs -text
 Content/ImportedAssets/SciFiWorld/* filter=lfs diff=lfs merge=lfs -text
@@ -9,7 +8,6 @@ Content/ImportedAssets/ModSci_EngiProps/* filter=lfs diff=lfs merge=lfs -text
 Content/ImportedAssets/ModSciInteriors/* filter=lfs diff=lfs merge=lfs -text
 Content/ImportedAssets/Orasot_Bundle/* filter=lfs diff=lfs merge=lfs -text
 Content/ImportedAssets/FutureUISoundLibrary/* filter=lfs diff=lfs merge=lfs -text
-
 # Track all .uasset files with Git LFS except in StarterContent
 *.uasset filter=lfs diff=lfs merge=lfs -text
 !Content/StarterContent/**/*.uasset
