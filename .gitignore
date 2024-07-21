@@ -77,5 +77,7 @@ DerivedDataCache/*
 Content/*
 !Content/**/*.uasset
 
-# Logs
+# Exclude specific directories or file types not related to .uasset files
+# Adjust these exclusions based on your project structure
+<specific_directory_to_exclude>/
 *.log
