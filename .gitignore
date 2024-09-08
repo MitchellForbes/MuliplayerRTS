@@ -93,6 +93,12 @@ Content/*
 !Content/ImportedAssets/Orasot_Bundle/**
 !Content/ImportedAssets/SciFiWorld/
 !Content/ImportedAssets/SciFiWorld/**
+!Content/ImportedAssets/BK/
+!Content/ImportedAssets/BK/**
+!Content/ImportedAssets/Jungle_pack/
+!Content/ImportedAssets/Jungle_pack/**
+!Content/ImportedAssets/STF/
+!Content/ImportedAssets/STF/**
 
 # Explicitly ignore the StarterContent directory
 Content/StarterContent/**
