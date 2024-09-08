@@ -8,7 +8,6 @@ Content/ImportedAssets/ModSci_EngiProps/* filter=lfs diff=lfs merge=lfs -text
 Content/ImportedAssets/ModSciInteriors/* filter=lfs diff=lfs merge=lfs -text
 Content/ImportedAssets/Orasot_Bundle/* filter=lfs diff=lfs merge=lfs -text
 Content/ImportedAssets/FutureUISoundLibrary/* filter=lfs diff=lfs merge=lfs -text
-*Content/ImportedAssets filter=lfs diff=lfs merge=lfs -text
 Content/ImportedAssets/BK/* filter=lfs diff=lfs merge=lfs -text
 Content/ImportedAssets/Jungle_pack/* filter=lfs diff=lfs merge=lfs -text
 Content/ImportedAssets/STF/* filter=lfs diff=lfs merge=lfs -text
