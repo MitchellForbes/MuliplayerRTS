@@ -72,27 +72,3 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
-
-# Exclude everything in Content folder except .uasset files
-Content/*
-!Content/**/*.uasset
-
-# Ensure specific directories and their contents are not ignored
-!Content/ImportedAssets/
-!Content/ImportedAssets/FutureUISoundLibrary/
-!Content/ImportedAssets/FutureUISoundLibrary/**
-!Content/ImportedAssets/ModSci_Engineer/
-!Content/ImportedAssets/ModSci_Engineer/**
-!Content/ImportedAssets/ModSci_EngiProps/
-!Content/ImportedAssets/ModSci_EngiProps/**
-!Content/ImportedAssets/ModSciInteriors/
-!Content/ImportedAssets/ModSciInteriors/**
-!Content/ImportedAssets/ModularSciFi/
-!Content/ImportedAssets/ModularSciFi/**
-!Content/ImportedAssets/Orasot_Bundle/
-!Content/ImportedAssets/Orasot_Bundle/**
-!Content/ImportedAssets/SciFiWorld/
-!Content/ImportedAssets/SciFiWorld/**
-
-# Explicitly ignore the StarterContent directory
-Content/StarterContent/**
