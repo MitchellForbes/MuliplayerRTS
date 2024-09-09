@@ -1,16 +1,13 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-# Track all files within specified folders with Git LFS
-Content/ImportedAssets/ModularSciFi/* filter=lfs diff=lfs merge=lfs -text
-Content/ImportedAssets/SciFiWorld/* filter=lfs diff=lfs merge=lfs -text
-Content/ImportedAssets/ModSci_Engineer/* filter=lfs diff=lfs merge=lfs -text
-Content/ImportedAssets/ModSci_EngiProps/* filter=lfs diff=lfs merge=lfs -text
-Content/ImportedAssets/ModSciInteriors/* filter=lfs diff=lfs merge=lfs -text
-Content/ImportedAssets/Orasot_Bundle/* filter=lfs diff=lfs merge=lfs -text
-Content/ImportedAssets/FutureUISoundLibrary/* filter=lfs diff=lfs merge=lfs -text
-Content/ImportedAssets/BK/* filter=lfs diff=lfs merge=lfs -text
-Content/ImportedAssets/Jungle_pack/* filter=lfs diff=lfs merge=lfs -text
-Content/ImportedAssets/STF/* filter=lfs diff=lfs merge=lfs -text
+
+# Track all .uasset files within specified folders with Git LFS
+Content/ImportedAssets/ModularSciFi/**/*.uasset filter=lfs diff=lfs merge=lfs -text
+Content/ImportedAssets/SciFiWorld/**/*.uasset filter=lfs diff=lfs merge=lfs -text
+Content/ImportedAssets/ModSci_Engineer/**/*.uasset filter=lfs diff=lfs merge=lfs -text
+Content/ImportedAssets/ModSci_EngiProps/**/*.uasset filter=lfs diff=lfs merge=lfs -text
+Content/ImportedAssets/ModSciInteriors/**/*.uasset filter=lfs diff=lfs merge=lfs -text
+Content/ImportedAssets/FutureUISoundLibrary/**/*.uasset filter=lfs diff=lfs merge=lfs -text
 Content/ImportedAssets/BK/**/*.uasset filter=lfs diff=lfs merge=lfs -text
 Content/ImportedAssets/Jungle_pack/**/*.uasset filter=lfs diff=lfs merge=lfs -text
 Content/ImportedAssets/STF/**/*.uasset filter=lfs diff=lfs merge=lfs -text
