@@ -11,3 +11,6 @@ Content/ImportedAssets/FutureUISoundLibrary/* filter=lfs diff=lfs merge=lfs -tex
 Content/ImportedAssets/BK/* filter=lfs diff=lfs merge=lfs -text
 Content/ImportedAssets/Jungle_pack/* filter=lfs diff=lfs merge=lfs -text
 Content/ImportedAssets/STF/* filter=lfs diff=lfs merge=lfs -text
+Content/ImportedAssets/BK/**/*.uasset filter=lfs diff=lfs merge=lfs -text
+Content/ImportedAssets/Jungle_pack/**/*.uasset filter=lfs diff=lfs merge=lfs -text
+Content/ImportedAssets/STF/**/*.uasset filter=lfs diff=lfs merge=lfs -text
