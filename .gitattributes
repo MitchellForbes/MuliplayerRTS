@@ -1,2 +1,14 @@
 # Auto detect text files and perform LF normalization
+# Track all .uasset files within specified folders with Git LFS
+Content/ImportedAssets/ModularSciFi/**/*.uasset filter=lfs diff=lfs merge=lfs -text
+Content/ImportedAssets/SciFiWorld/**/*.uasset filter=lfs diff=lfs merge=lfs -text
+Content/ImportedAssets/ModSci_Engineer/**/*.uasset filter=lfs diff=lfs merge=lfs -text
+Content/ImportedAssets/ModSci_EngiProps/**/*.uasset filter=lfs diff=lfs merge=lfs -text
+Content/ImportedAssets/ModSciInteriors/**/*.uasset filter=lfs diff=lfs merge=lfs -text
+Content/ImportedAssets/FutureUISoundLibrary/**/*.uasset filter=lfs diff=lfs merge=lfs -text
+Content/ImportedAssets/BK/**/*.uasset filter=lfs diff=lfs merge=lfs -text
+Content/ImportedAssets/Jungle_pack/**/*.uasset filter=lfs diff=lfs merge=lfs -text
+Content/ImportedAssets/STF/**/*.uasset filter=lfs diff=lfs merge=lfs -text
+Content/ImportedAssets/SciFiWorld filter=lfs diff=lfs merge=lfs -text
+
 * text=auto
