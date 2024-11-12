@@ -12,3 +12,4 @@ Content/ImportedAssets/Jungle_pack/**/*.uasset filter=lfs diff=lfs merge=lfs -te
 Content/ImportedAssets/STF/**/*.uasset filter=lfs diff=lfs merge=lfs -text
 Content/ImportedAssets/SciFiWorld filter=lfs diff=lfs merge=lfs -text
 Content/ImportedAssets/ParagonMinions/Minions filter=lfs diff=lfs merge=lfs -text
+Content/ImportedAssets/ParagonMinions fillter=lfs diff=lfs merge=lfs -text
